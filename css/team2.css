@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.team2_pg{
+  max-width: 1640px;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+}
+.team2_pg img {
+  display: block;
+  margin: 0 auto;
+}
+.team2_pg .top_btn{
+  position: fixed;
+  right: 40px;   /* 화면 오른쪽에서 40px */
+  bottom: 140px;  /* 화면 아래에서 40px */
+  z-index: 9999; /* 다른 요소 위에 표시 */
+  padding: 25px 25px;
+  background: #00827D;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.team2_pg .btn_more{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; 
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 9999;
+}
+.team2_pg .btn1,
+.team2_pg .btn2 {
+  position: static; 
+  padding: 16px 32px;
+  background: #00827D;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.fp-tooltip {
+  display: none !important;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background:#4682b4!important; /* 원하는 색상으로 변경 */
+}
+#fp-nav ul li .active span,
+.fp-slidesNav ul li .active span {
+  background:	#FFA07A!important;
+}
